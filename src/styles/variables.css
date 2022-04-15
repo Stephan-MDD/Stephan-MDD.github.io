@@ -1,0 +1,32 @@
+#root {
+	/* media */
+	--max-phone-width: 600px;
+
+	/* blue */
+	--blue-primary: hsl(205, 100%, 60%);
+	--blue-secondary: hsl(205, 100%, 40%);
+	--blue-dark: hsl(205, 100%, 20%);
+	--blue-light: hsl(205, 100%, 80%);
+	--blue-bright: hsl(190, 100%, 50%);
+
+	/* green */
+	--green-primary: hsl(165, 100%, 60%);
+	--green-secondary: hsl(165, 100%, 40%);
+	--green-dark: hsl(165, 100%, 20%);
+	--green-light: hsl(165, 100%, 80%);
+	--green-bright: hsl(150, 100%, 50%);
+
+	/* violet */
+	--violet-primary: hsl(260, 100%, 60%);
+	--violet-secondary: hsl(260, 100%, 40%);
+	--violet-dark: hsl(260, 100%, 20%);
+	--violet-light: hsl(260, 100%, 80%);
+	--violet-bright: hsl(245, 100%, 50%);
+
+	/* grey */
+	--grey-primary: hsl(220, 25%, 60%);
+	--grey-secondary: hsl(220, 25%, 40%);
+	--grey-dark: hsl(220, 25%, 20%);
+	--grey-light: hsl(220, 25%, 80%);
+	--grey-bright: hsl(210, 100%, 99%);
+}

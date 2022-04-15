@@ -1,16 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorkerRegistration from './serviceWorkerRegistration';
-import reportWebVitals from './reportWebVitals';
+// libraries
+import { createRoot } from 'react-dom/client';
+import '@fontsource/orbitron';
+import '@fontsource/roboto';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import * as serviceWorkerRegistration from './services/service-worker-registration';
+import reportWebVitals from './services/report-web-vitals';
+
+// resources
+import { Router } from './components/navigation/router';
+import './styles/variables.css';
+import './styles/composite.css';
+import './styles/typography.css';
+
+const container = document.getElementById('root');
+const root = createRoot(container!);
+root.render(<Router />);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
